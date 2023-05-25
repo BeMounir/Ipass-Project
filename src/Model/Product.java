@@ -11,7 +11,8 @@ public class Product {
     private String color;
     private String size;
     private Array images;
-    private double rating;
+    private AdminService productBeheerder;
+    private ProductRule deProduct;
 
     public String getProductId() {
         return productId;
@@ -67,13 +68,5 @@ public class Product {
 
     public void setSize(String size) {
         this.size = size;
-    }
-
-    public double getRating() {
-        return rating;
-    }
-
-    public void setRating(double rating) {
-        this.rating = rating;
     }
 }
