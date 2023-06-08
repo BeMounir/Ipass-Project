@@ -11,8 +11,8 @@ public class Customer {
     private String email;
     private String address;
     private ArrayList orderHistory;
-    private Payment betaling;
-    private Order bestelling;
+    private Payment allPayment;
+    private List<Order> allOrders;
     private static List<Customer> allCustomers = new ArrayList<>();
 
     public Customer(int ci, String nm, String em, String ad){
@@ -62,11 +62,11 @@ public class Customer {
     }
 
     public Payment getBetaling() {
-        return betaling;
+        return allPayment;
     }
 
     public void setBetaling(Payment betaling) {
-        this.betaling = betaling;
+        this.allPayment = betaling;
     }
 
     public static List<Customer> getAllCustomers() {

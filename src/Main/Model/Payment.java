@@ -1,15 +1,25 @@
 package Main.Model;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Payment {
     private int paymentId;
     private String paymentMethod;
-    private ArrayList<Customer> alleCustomers;
+    private Customer betaler;
+    private static List<Payment> allPayments = new ArrayList<>();
 
     public Payment(int pI, String pM) {
         paymentId = pI;
         paymentMethod = pM;
+    }
+
+    public static List<Payment> getAllPayments() {
+        return allPayments;
+    }
+
+    public static void addPayments(Payment payment) {
+        allPayments.add(payment);
     }
 
     public int getPaymentId() {

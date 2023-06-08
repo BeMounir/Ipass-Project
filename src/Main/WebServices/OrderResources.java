@@ -3,16 +3,14 @@ package Main.WebServices;
 import Main.Model.Order;
 import Main.Model.Product;
 
-import javax.ws.rs.Consumes;
-import javax.ws.rs.GET;
-import javax.ws.rs.POST;
-import javax.ws.rs.Produces;
+import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.util.AbstractMap;
 import java.util.List;
 import java.util.Map;
 
+@Path("orders")
 public class OrderResources {
     @GET
     @Produces("application/json")

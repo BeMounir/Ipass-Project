@@ -1,72 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Ipass Project:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a0044cb-8f9b-4100-ab13-5fabdfa5ae53" name="Changes" comment="fix + testcases">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Ipass_Project_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Ipass_Project_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_12_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_2_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_javax_json_api_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_jakarta_inject_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_entity_filtering_2_35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_inject_jersey_hk2_2_35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_jackson_2_35.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_25_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Persistent/PersistentManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Persistent/orders.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Setup/JerseyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Setup/MyServletContextListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/Home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/WinkelMand.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Images/schoen4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Images/winkelmand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebServices/CustomerResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebServices/OrderResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebServices/PaymentResources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebServices/ProductResources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5a0044cb-8f9b-4100-ab13-5fabdfa5ae53" name="Changes" comment="eerste commit">
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/WinkelMand.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ProductTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ipass Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ipass Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/ProductRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/ProductRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Model/ProductRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/ProductRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Setup/JerseyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Setup/JerseyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Setup/MyServletContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Setup/MyServletContextListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/WinkelMand.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/WinkelMand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebServices/OrderResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebServices/OrderResources.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CustomerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/OrderTest.java" afterDir="false" />
     </list>
@@ -78,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
         <option value="Class" />
       </list>
     </option>
@@ -149,11 +108,20 @@
       <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\WebApp\Images" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.74">
+  <component name="RunManager" selected="JUnit.ProductTest">
     <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ipass Project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CustomerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ipass Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OrderTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,9 +137,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ipass Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ProductTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.74" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.74" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
+      <deployment>
+        <artifact name="Ipass Project:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="f4ab5c3f-9041-4c35-a695-c14be248bd68" />
       </server-settings>
@@ -245,17 +228,24 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Ipass Project:war exploded" />
+        </option>
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.OrderTest" />
+      <item itemvalue="JUnit.ProductTest" />
       <item itemvalue="JUnit.CustomerTest" />
       <item itemvalue="JUnit.OrderTest.testGetOrderId" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.74" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderTest.testGetOrderId" />
+        <item itemvalue="JUnit.ProductTest" />
+        <item itemvalue="JUnit.OrderTest" />
         <item itemvalue="JUnit.CustomerTest" />
+        <item itemvalue="JUnit.OrderTest.testGetOrderId" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +261,7 @@
       <workItem from="1684929094529" duration="2365000" />
       <workItem from="1684958445088" duration="11093000" />
       <workItem from="1685432463067" duration="4286000" />
-      <workItem from="1685532154982" duration="34259000" />
+      <workItem from="1685532154982" duration="41915000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1684963881878</created>
@@ -301,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685031462016</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="eerste commit">
+      <created>1686216005189</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686216005189</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +320,7 @@
     <MESSAGE value="domeinmodel opgesteld in java" />
     <MESSAGE value="getters en setters" />
     <MESSAGE value="fix + testcases" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix + testcases" />
+    <MESSAGE value="eerste commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="eerste commit" />
   </component>
 </project>

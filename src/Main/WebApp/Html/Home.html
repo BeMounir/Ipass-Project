@@ -2,17 +2,25 @@
 <head>
     <title>BiTvN</title>
     <link rel="stylesheet" href="../Css/Home.css">
-    <script src="index.js"></script>
 </head>
 <body>
 <div id="Banner">
     <span id="Title">Mounir's Schoenen Webshop</span>
-    <a href="/Project_war_exploded/Profile/Profile.html"><img src="Images/Profile-Image.jpg" id="Profile"></a><br><br><br><br>
     <span id="ShoppingCartInfo">
-                <a href="/Project_war_exploded/ShoppingCart/Shoppingcart.html"><img src="../Images/winkelmand.png" id="ShoppingCart" onclick=""></a>
+                <a href="WinkelMand.html"><img src="../Images/winkelmand.png" id="ShoppingCart" onclick="redirectToShoppingCart()"></a>
                 <label id="Items"><span id="AantalItems">0</span> items</label>
             </span>
 </div>
+<script>
+    function redirectToShoppingCart() {
+        window.location.href = "WinkelMand.html";
+    }
+    function incrementItemCount() {
+        var itemCountElement = document.getElementById("AantalItems");
+        var itemCount = parseInt(itemCountElement.innerHTML);
+        itemCountElement.innerHTML = itemCount + 1;
+    }
+</script>
 <div id="Schoen">
     <div class="SchoenRegel">
         <div id="Schoen1" class="Schoen">
@@ -27,7 +35,7 @@
                 120.99
             </div><br>
             <div class="ButtonDiv">
-                <button>Koop</button>
+                <button class="koop" onclick="incrementItemCount()">Koop</button>
             </div>
         </div>
         <div id="Schoen2" class="Schoen">
@@ -42,7 +50,7 @@
                 199.99
             </div><br>
             <div class="ButtonDiv">
-                <button>Koop</button>
+                <button class="koop" onclick="incrementItemCount()">Koop</button>
             </div>
         </div>
         <div id="Schoen3" class="Schoen">
@@ -57,11 +65,11 @@
                 69.99
             </div><br>
             <div class="ButtonDiv">
-                <button>Koop</button>
+                <button class="koop" onclick="incrementItemCount()">Koop</button>
             </div>
         </div>
     </div>
-    <div class="BroodjesRegel">
+    <div class="SchoenRegel">
         <div id="Schoen4" class="Schoen">
             <img src="../Images/schoen4.png" Class="SchoenenImage"><br>
             <div class="Align">
@@ -74,7 +82,7 @@
                 69.99
             </div><br>
             <div class="ButtonDiv">
-                <button>Koop</button>
+                <button class="koop" onclick="incrementItemCount()">Koop</button>
             </div>
         </div>
         <div id="Schoen5" class="Schoen">
@@ -89,7 +97,7 @@
                 139.99
             </div><br>
             <div class="ButtonDiv">
-                <button>Koop</button>
+                <button class="koop" onclick="incrementItemCount()">Koop</button>
             </div>
         </div>
         <div id="Schoen6" class="Schoen">
@@ -104,7 +112,7 @@
                 160.99
             </div><br>
             <div class="ButtonDiv">
-                <button>Koop</button>
+                <button class="koop" onclick="incrementItemCount()">Koop</button>
             </div>
         </div>
     </div>

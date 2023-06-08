@@ -12,8 +12,7 @@ public class Order {
     private String billingAddress;
     private Date orderDate;
     private String orderStatus;
-    private Customer aankoop;
-    private ProductRule deProductRule;
+    private Customer bestelling;
 
     public Order(int oI, double tC, String sA, String bA, Date oD, String oS) {
         orderId = oI;

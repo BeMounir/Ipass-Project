@@ -14,7 +14,7 @@ public class Product {
     private String size;
     private String[] images;
     private AdminService productBeheerder;
-    private ProductRule deProduct;
+    private List<ProductRule> allProducttRules;
 
     public Product(int pI, String nm, String desc, String bd, double pr, String cr, String si, String[] im) {
         productId = pI;
@@ -29,6 +29,10 @@ public class Product {
 
     public static List<Product> getAllProducts() {
         return allProducts;
+    }
+
+    public static void addProducts(Product product) {
+        allProducts.add(product);
     }
 
     public int getProductId() {

@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class ProductRule {
     private int aantal;
     private double ruleTotal;
-    private ArrayList<Product> alleProductRules;
-    private ArrayList<Order> alleOrders;
+    private ArrayList<Product> deProduct;
+    private Order deProductRule;
 
     public int getAantal() {
         return aantal;
