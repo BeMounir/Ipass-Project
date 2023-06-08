@@ -1,0 +1,84 @@
+html {
+    background-color: white;
+}
+
+#Banner {
+    background-color: gray;
+    height: 70px;
+    width: 100%;
+}
+
+#Title {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 300px;
+}
+
+#Profile {
+    width: 80px;
+    height: 70px;
+    float: right;
+    margin-top: 0px;
+}
+
+.SchoenenImage {
+    width: 130px;
+    height: 90px;
+}
+
+.Align {
+    margin-left: 10px;
+}
+
+.SchoenRegel {
+    height: 200px;
+    width: 1000px;
+    margin-left: 28%;
+    margin-top: 50px;;
+    border: black;
+}
+
+.Schoen {
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.ButtonDiv {
+    padding-left: 35%;
+}
+
+#Links {
+    margin-top: 5%;
+    margin-left: 23%;
+    text-decoration: none;
+}
+
+#ShoppingCart {
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+#Items {
+    float: right;
+    margin-right: 20px;
+}
+
+#ShoppingCartInfo {
+    width: 80px;
+}
+
+#Links a {
+    background-color: lightblue;
+    padding: 5px;
+    text-decoration: none;
+}
+
+#Links a:hover {
+    background-color: darkblue;
+    color: white;
+}

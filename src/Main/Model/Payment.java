@@ -1,18 +1,23 @@
-package Model;
+package Main.Model;
 
 import java.util.ArrayList;
 
 public class Payment {
-    private int customerId;
+    private int paymentId;
     private String paymentMethod;
     private ArrayList<Customer> alleCustomers;
 
-    public int getCustomerId() {
-        return customerId;
+    public Payment(int pI, String pM) {
+        paymentId = pI;
+        paymentMethod = pM;
+    }
+
+    public int getPaymentId() {
+        return paymentId;
     }
 
     public void setCustomerId(int customerId) {
-        this.customerId = customerId;
+        this.paymentId = customerId;
     }
 
     public String getPaymentMethod() {

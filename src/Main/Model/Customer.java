@@ -1,4 +1,6 @@
-package Model;
+package Main.Model;
+
+import org.glassfish.jersey.internal.inject.Custom;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +13,14 @@ public class Customer {
     private ArrayList orderHistory;
     private Payment betaling;
     private Order bestelling;
+    private static List<Customer> allCustomers = new ArrayList<>();
 
+    public Customer(int ci, String nm, String em, String ad){
+        customerId = ci;
+        name = nm;
+        email = em;
+        address = ad;
+    }
     public int getCustomerId() {
         return customerId;
     }
@@ -58,5 +67,26 @@ public class Customer {
 
     public void setBetaling(Payment betaling) {
         this.betaling = betaling;
+    }
+
+    public static List<Customer> getAllCustomers() {
+        return allCustomers;
+    }
+
+    public static void addCustomers(Customer customer) {
+        allCustomers.add(customer);
+    }
+
+    public boolean isValid() {
+        if (name == null || name.isEmpty()) {
+            return false;
+        }
+        if (email == null || email.isEmpty()) {
+            return false;
+        }
+        if (address == null || address.isEmpty()) {
+            return false;
+        }
+        return true;
     }
 }

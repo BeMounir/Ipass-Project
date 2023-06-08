@@ -1,4 +1,4 @@
-import Model.Customer;
+import Main.Model.Customer;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -9,7 +9,7 @@ public class CustomerTest {
 
     @BeforeEach
     public void setUp() {
-        customer = new Customer();
+        customer = new Customer(1, "bob", "bob@gmail.com", "capelle a/d bob");
     }
 
     @Test
