@@ -8,16 +8,19 @@ import java.util.List;
 public class Customer {
     private int customerId;
     private String name;
+    private String password;
     private String email;
     private String address;
     private ArrayList orderHistory;
     private Payment allPayment;
+    private String role;
     private List<Order> allOrders;
-    private static List<Customer> allCustomers = new ArrayList<>();
+    private static final List<Customer> allCustomers = new ArrayList<>();
 
-    public Customer(int ci, String nm, String em, String ad){
+    public Customer(int ci, String nm, String pw, String em, String ad){
         customerId = ci;
         name = nm;
+        password = pw;
         email = em;
         address = ad;
     }
@@ -84,9 +87,27 @@ public class Customer {
         if (email == null || email.isEmpty()) {
             return false;
         }
-        if (address == null || address.isEmpty()) {
-            return false;
+        return address != null && !address.isEmpty();
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public static Customer getCustomerById(int customerId) {
+        for (Customer customer : allCustomers) {
+            if (customer.getCustomerId() == customerId) {
+                return customer;
+            }
         }
-        return true;
+        return null;
     }
 }

@@ -1,26 +1,24 @@
-<html>
+<!DOCTYPE html>
+<html lang="nl">
 <head>
-    <title>BiTvN</title>
+    <title>Schoenen Winkel</title>
     <link rel="stylesheet" href="../Css/Home.css">
 </head>
 <body>
 <div id="Banner">
     <span id="Title">Mounir's Schoenen Webshop</span>
     <span id="ShoppingCartInfo">
-                <a href="WinkelMand.html"><img src="../Images/winkelmand.png" id="ShoppingCart" onclick="redirectToShoppingCart()"></a>
+                <a href="WinkelMand.html"><img src="../Images/winkelmand.png" id="ShoppingCart" alt="winkelmand"></a>
                 <label id="Items"><span id="AantalItems">0</span> items</label>
             </span>
+    <span id="logout">
+        <a href="login.html"><img src="../Images/logout.png" id="logoutKnop" alt="log in"></a>
+    </span>
+    <span id="bestelgeschiedenis">
+        <a href="BestelGeschiedenis.html"><img src="../Images/bestelgeschiedenis.png" id="bestelgeschiedenisKnop" alt="bestel geschiedenis"></a>
+    </span>
 </div>
-<script>
-    function redirectToShoppingCart() {
-        window.location.href = "WinkelMand.html";
-    }
-    function incrementItemCount() {
-        var itemCountElement = document.getElementById("AantalItems");
-        var itemCount = parseInt(itemCountElement.innerHTML);
-        itemCountElement.innerHTML = itemCount + 1;
-    }
-</script>
+<script src="JavaScript/AddToCart.js"></script>
 <div id="Schoen">
     <div class="SchoenRegel">
         <div id="Schoen1" class="Schoen">
@@ -33,9 +31,10 @@
             </div>
             <div class="Align">
                 120.99
-            </div><br>
+            </div>
+            <br>
             <div class="ButtonDiv">
-                <button class="koop" onclick="incrementItemCount()">Koop</button>
+                <button class="koop" onclick="addToCart(1, 120.99)">Koop</button>
             </div>
         </div>
         <div id="Schoen2" class="Schoen">
@@ -48,9 +47,10 @@
             </div>
             <div class="Align">
                 199.99
-            </div><br>
+            </div>
+            <br>
             <div class="ButtonDiv">
-                <button class="koop" onclick="incrementItemCount()">Koop</button>
+                <button class="koop" onclick="addToCart(2)">Koop</button>
             </div>
         </div>
         <div id="Schoen3" class="Schoen">
@@ -63,9 +63,10 @@
             </div>
             <div class="Align">
                 69.99
-            </div><br>
+            </div>
+            <br>
             <div class="ButtonDiv">
-                <button class="koop" onclick="incrementItemCount()">Koop</button>
+                <button class="koop" onclick="addToCart(3)">Koop</button>
             </div>
         </div>
     </div>
@@ -80,9 +81,10 @@
             </div>
             <div class="Align">
                 69.99
-            </div><br>
+            </div>
+            <br>
             <div class="ButtonDiv">
-                <button class="koop" onclick="incrementItemCount()">Koop</button>
+                <button class="koop" onclick="addToCart(4)">Koop</button>
             </div>
         </div>
         <div id="Schoen5" class="Schoen">
@@ -95,9 +97,10 @@
             </div>
             <div class="Align">
                 139.99
-            </div><br>
+            </div>
+            <br>
             <div class="ButtonDiv">
-                <button class="koop" onclick="incrementItemCount()">Koop</button>
+                <button class="koop" onclick="addToCart(5)">Koop</button>
             </div>
         </div>
         <div id="Schoen6" class="Schoen">
@@ -110,9 +113,10 @@
             </div>
             <div class="Align">
                 160.99
-            </div><br>
+            </div>
+            <br>
             <div class="ButtonDiv">
-                <button class="koop" onclick="incrementItemCount()">Koop</button>
+                <button class="koop" onclick="addToCart(6)">Koop</button>
             </div>
         </div>
     </div>

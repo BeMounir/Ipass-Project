@@ -7,7 +7,7 @@
 <body>
 <div class="container">
     <h2>Login</h2>
-    <form>
+    <form id="loginForm">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
 
@@ -16,21 +16,7 @@
 
         <button type="submit" value="login" id="login">Login</button>
     </form>
-    <script>
-        function login() {
-            let formData = new FormData(document.querySelector("#loginform"));
-            let jsonRequestBody = {}
-            formData.forEach((key, value) => jsonRequestBody[key] = value);
-            fetch("restservices/authentication", {method: "POST", body: jsonRequestBody})
-                .then(function (response) {
-                    if (response.ok) return response.json();
-                    else throw "Wrong username/password";
-                })
-                .then(myJson => window.sessionStorage.setItem("myJWT".myJson.JWT))
-                .catch(error => console.log(error));
-        }
-        document.querySelector("#login").addEventListener("click", login);
-    </script>
+    <script src="JavaScript/login.js"></script>
 </div>
 </body>
 </html>

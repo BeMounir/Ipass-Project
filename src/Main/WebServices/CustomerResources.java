@@ -24,6 +24,19 @@ public class CustomerResources {
         }
     }
 
+    @GET
+    @Path("/{id}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getCustomer(@PathParam("id") int id) {
+        Customer customer = Customer.getCustomerById(id);
+        if (customer != null) {
+            return Response.ok(customer).build();
+        } else {
+            var error = Map.of("error", "Customer niet gevonden.");
+            return Response.status(Response.Status.NOT_FOUND).entity(error).build();
+        }
+    }
+
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
@@ -35,4 +48,6 @@ public class CustomerResources {
             return Response.status(Response.Status.BAD_REQUEST).entity(error).build();
         }
     }
+
+
 }

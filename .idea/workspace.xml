@@ -9,25 +9,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a0044cb-8f9b-4100-ab13-5fabdfa5ae53" name="Changes" comment="eerste commit">
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/WinkelMand.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ProductTest.java" afterDir="false" />
+    <list default="true" id="5a0044cb-8f9b-4100-ab13-5fabdfa5ae53" name="Changes" comment="tweede commit">
+      <change afterPath="$PROJECT_DIR$/src/Main/Security/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/Security/AuthenticationRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/Security/AuthenticationResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/Security/MySecurityContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/BestelGeschiedenis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/BestelGeschiedenis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/AddToCart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/Order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/ShowCart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Images/bestelgeschiedenis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Images/logout.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Payment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Model/ProductRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/ProductRule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Setup/JerseyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Setup/JerseyConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Setup/MyServletContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Setup/MyServletContextListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/WinkelMand.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/WinkelMand.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebServices/CustomerResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebServices/CustomerResources.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/WebServices/OrderResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebServices/OrderResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebServices/ProductResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebServices/ProductResources.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CustomerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/OrderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/OrderTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,9 +46,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="CSS File" />
         <option value="Class" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -75,40 +85,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/X/Downloads/countrycase-BeMounir-main/Ipass Project",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15722656",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.tools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/X/Downloads/countrycase-BeMounir-main/Ipass Project&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15722656&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\Main\WebApp\Images" />
       <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\Main" />
+      <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src" />
       <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\WebApp\Css" />
       <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\WebApp\Html" />
-      <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\WebApp\Images\Html" />
-      <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\WebApp\Images" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProductTest">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.74">
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Ipass Project" />
       <option name="PACKAGE_NAME" value="" />
@@ -147,6 +160,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.74" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.74" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Html/login.html" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Ipass Project:war exploded">
@@ -234,14 +248,16 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.OrderTest" />
-      <item itemvalue="JUnit.ProductTest" />
+      <item itemvalue="HTTP Request.generated-requests | #3" />
       <item itemvalue="JUnit.CustomerTest" />
+      <item itemvalue="JUnit.OrderTest" />
       <item itemvalue="JUnit.OrderTest.testGetOrderId" />
+      <item itemvalue="JUnit.ProductTest" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.74" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests | #3" />
         <item itemvalue="JUnit.ProductTest" />
         <item itemvalue="JUnit.OrderTest" />
         <item itemvalue="JUnit.CustomerTest" />
@@ -261,7 +277,15 @@
       <workItem from="1684929094529" duration="2365000" />
       <workItem from="1684958445088" duration="11093000" />
       <workItem from="1685432463067" duration="4286000" />
-      <workItem from="1685532154982" duration="41915000" />
+      <workItem from="1685532154982" duration="42421000" />
+      <workItem from="1686558889489" duration="9000" />
+      <workItem from="1686603654476" duration="12540000" />
+      <workItem from="1687162663460" duration="604000" />
+      <workItem from="1687163340853" duration="298000" />
+      <workItem from="1687163686839" duration="330000" />
+      <workItem from="1687164084847" duration="2067000" />
+      <workItem from="1687166205783" duration="1032000" />
+      <workItem from="1687247539474" duration="15880000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1684963881878</created>
@@ -298,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686216005189</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="tweede commit">
+      <created>1686246445590</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686246445590</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,6 +352,7 @@
     <MESSAGE value="getters en setters" />
     <MESSAGE value="fix + testcases" />
     <MESSAGE value="eerste commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="eerste commit" />
+    <MESSAGE value="tweede commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="tweede commit" />
   </component>
 </project>

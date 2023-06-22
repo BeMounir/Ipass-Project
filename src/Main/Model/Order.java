@@ -102,4 +102,12 @@ public class Order {
 
         return true;
     }
+    public static Order getOrderById(int orderId) {
+        for (Order order : allOrders) {
+            if (order.getOrderId() == orderId) {
+                return order;
+            }
+        }
+        return null;
+    }
 }

@@ -113,4 +113,13 @@ public class Product {
 
         return true;
     }
+
+    public static Product getProductById(int productId) {
+        for (Product product : allProducts) {
+            if (product.getProductId() == productId) {
+                return product;
+            }
+        }
+        return null;
+    }
 }
