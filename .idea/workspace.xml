@@ -9,34 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a0044cb-8f9b-4100-ab13-5fabdfa5ae53" name="Changes" comment="tweede commit">
-      <change afterPath="$PROJECT_DIR$/src/Main/Security/AuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Security/AuthenticationRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Security/AuthenticationResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Security/MySecurityContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/BestelGeschiedenis.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/BestelGeschiedenis.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/AddToCart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/Order.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/ShowCart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Images/bestelgeschiedenis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Images/logout.png" afterDir="false" />
+    <list default="true" id="5a0044cb-8f9b-4100-ab13-5fabdfa5ae53" name="Changes" comment="derde commit">
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/ProductToevoegen.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Setup/JerseyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Setup/JerseyConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Setup/MyServletContextListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Setup/MyServletContextListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Model/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Security/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Security/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Css/WinkelMand.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/WinkelMand.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/AddToCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/AddToCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/ShowCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/ShowCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/WinkelMand.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/WinkelMand.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebServices/CustomerResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebServices/CustomerResources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebServices/OrderResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebServices/OrderResources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebServices/ProductResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebServices/ProductResources.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/CustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,11 +94,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\Main\WebApp\Html" />
       <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\Main\WebApp\Images" />
       <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\Main" />
       <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src" />
       <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\WebApp\Css" />
-      <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\WebApp\Html" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.74">
@@ -285,7 +268,9 @@
       <workItem from="1687163686839" duration="330000" />
       <workItem from="1687164084847" duration="2067000" />
       <workItem from="1687166205783" duration="1032000" />
-      <workItem from="1687247539474" duration="15880000" />
+      <workItem from="1687247539474" duration="21709000" />
+      <workItem from="1687770440904" duration="2042000" />
+      <workItem from="1687772517625" duration="99000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1684963881878</created>
@@ -329,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686246445590</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="derde commit">
+      <created>1687443251401</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687443251401</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,6 +345,7 @@
     <MESSAGE value="fix + testcases" />
     <MESSAGE value="eerste commit" />
     <MESSAGE value="tweede commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="tweede commit" />
+    <MESSAGE value="derde commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="derde commit" />
   </component>
 </project>

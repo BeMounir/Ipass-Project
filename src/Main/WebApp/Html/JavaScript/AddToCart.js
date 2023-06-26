@@ -1,44 +1,16 @@
-let cartItems = [];
-let totalPrice = 0;
-
-function addToCart(productId, price) {
+function addToCart(productId, name, description, price) {
     const product = {
         productId: productId,
+        name: name,
+        description: description,
         price: price
     };
 
-    cartItems.push(product);
+    const shoppingCart = JSON.parse(localStorage.getItem("shoppingCart")) || [];
 
-    totalPrice += price;
+    shoppingCart.push(product);
 
-    document.getElementById("AantalItems").textContent = cartItems.length;
+    localStorage.setItem("shoppingCart", JSON.stringify(shoppingCart));
 
     alert("Product added to cart!");
-}
-
-function incrementItemCount() {
-    let itemCountElement = document.getElementById("AantalItems");
-    let itemCount = parseInt(itemCountElement.innerHTML);
-    itemCountElement.innerHTML = itemCount + 1;
-
-    addItemToCart(productId, name, price);
-}
-
-function addItemToCart(productId, name, price) {
-    let cartItem = document.createElement("div");
-    cartItem.classList.add("cart-item");
-
-    cartItem.innerHTML = `
-        <img src="../Images/schoen4.png" alt="${name}">
-        <div class="details">
-            <h3>${name}</h3>
-            <p>Price: $${price}</p>
-            <p>Quantity: 1</p>
-        </div>
-        <div class="price">$${price}</div>
-    `;
-
-    let cartContainer = document.getElementById("cart-items");
-
-    cartContainer.appendChild(cartItem);
 }

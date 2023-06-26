@@ -1,24 +1,36 @@
-let cartItems = [];
-let totalPrice = 0;
+window.addEventListener("DOMContentLoaded", displayShoppingCart);
 
-function displayCartItems() {
-    const cartItemsElement = document.getElementById("CartItems");
-    cartItemsElement.innerHTML = "";
+function displayShoppingCart() {
+    // Retrieve shopping cart from local storage
+    const shoppingCart = JSON.parse(localStorage.getItem("shoppingCart")) || [];
 
-    for (let i = 0; i < cartItems.length; i++) {
-        const item = cartItems[i];
+    // Get the table element
+    const cartTable = document.getElementById("cartTable");
 
-        const listItem = document.createElement("li");
-        listItem.textContent = `Product ID: ${item.productId}, Price: €${item.price}`;
+    // Clear the table body
+    cartTable.innerHTML = "";
 
-        cartItemsElement.appendChild(listItem);
-    }
+    // Iterate over each product in the shopping cart
+    shoppingCart.forEach((product) => {
+        // Create a new row
+        const row = document.createElement("tr");
+
+        // Create cells for product details
+        const productCell = document.createElement("td");
+        productCell.textContent = product.name;
+
+        const descriptionCell = document.createElement("td");
+        descriptionCell.textContent = product.description;
+
+        const priceCell = document.createElement("td");
+        priceCell.textContent = product.price;
+
+        // Append cells to the row
+        row.appendChild(productCell);
+        row.appendChild(descriptionCell);
+        row.appendChild(priceCell);
+
+        // Append the row to the table
+        cartTable.appendChild(row);
+    });
 }
-
-function displayTotalPrice() {
-    const totalAmountElement = document.getElementById("TotalAmount");
-    totalAmountElement.textContent = `€${totalPrice}`;
-}
-
-displayCartItems();
-displayTotalPrice();

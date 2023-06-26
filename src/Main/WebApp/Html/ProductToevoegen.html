@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Product</title>
+</head>
+<body>
+<h1>Add Product</h1>
+
+<form>
+  <label for="productName">Product Name:</label>
+  <input type="text" id="productName" name="productName" required><br><br>
+
+  <label for="productDescription">Product Description:</label>
+  <textarea id="productDescription" name="productDescription" required></textarea><br><br>
+
+  <label for="productPrice">Product Price:</label>
+  <input type="number" id="productPrice" name="productPrice" step="0.01" required><br><br>
+
+  <button type="button" onclick="cancel()">Cancel</button>
+  <button type="submit" onclick="addProduct()">OK</button>
+</form>
+
+<br>
+<button onclick="goToHomePage()">Go to Home</button>
+
+<script>
+  function goToHomePage() {
+    window.location.href = "Home.html";
+  }
+</script>
+
+</body>
+</html>

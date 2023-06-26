@@ -20,8 +20,6 @@ public class AuthenticationFilter implements ContainerRequestFilter {
     public void filter(ContainerRequestContext requestCtx) throws IOException {
         boolean isSecure = requestCtx.getSecurityContext().isSecure();
 
-        System.out.println("test");
-
         MySecurityContext msc = new MySecurityContext("Unknown", "guest", isSecure);
         String authHeader = requestCtx.getHeaderString(HttpHeaders.AUTHORIZATION);
         if (authHeader != null && authHeader.startsWith("Bearer ")) {

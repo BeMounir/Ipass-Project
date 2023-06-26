@@ -13,6 +13,24 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+html {
+    background-color: white;
+}
+
+#Banner {
+    background-color: gray;
+    height: 70px;
+    width: 100%;
+}
+
+#Title {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 300px;
+}
+
+
 h2 {
     text-align: center;
 }
@@ -75,4 +93,43 @@ h2 {
 
 .checkout-btn:hover {
     background-color: #2e3f8f;
+}
+
+#WinkelMand {
+    margin: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#logoutKnop {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+#bestelgeschiedenisKnop {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#Title {
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 50px;
+    width: 300px;
+}
+
+#ShoppingCart {
+    width: 80px;
+    height: 100px;
+    float: right;
+    margin-right: 20px;
+    margin-top: -12px;
 }

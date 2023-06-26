@@ -1,4 +1,5 @@
 class ProductService {
+
     static addProduct(product) {
         const url = `restservices/products`;
         const options = {
@@ -70,3 +71,4 @@ class ProductService {
             });
     }
 }
+window.addEventListener("DOMContentLoaded", updateCartItemCount);

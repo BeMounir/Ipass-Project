@@ -1,21 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
-    <title>Winkelmand</title>
+    <meta content="text/html; charset=UTF-8; X-Content-Type-Options=nosniff" http-equiv="Content-Type" />
+    <title>Schoenen Winkel</title>
     <link rel="stylesheet" href="../Css/WinkelMand.css">
 </head>
 <body>
-<div class="container">
+<div id="Banner">
+    <span id="Title">Mounir's Schoenen Webshop</span>
+    <span id="ShoppingCartInfo">
+        <a href="WinkelMand.html"><img src="../Images/winkelmand.png" id="ShoppingCart" alt="winkelmand"></a>
+        <label id="Items"><span id="AantalItems">0</span> items</label>
+    </span>
+    <span id="logout">
+        <a href="login.html"><img src="../Images/logout.png" id="logoutKnop" alt="log in"></a>
+    </span>
+    <span id="bestelgeschiedenis">
+        <a href="BestelGeschiedenis.html"><img src="../Images/bestelgeschiedenis.png" id="bestelgeschiedenisKnop"
+                                               alt="bestel geschiedenis"></a>
+    </span>
+</div>
+
+<div id="WinkelMand">
     <h2>Winkelmand</h2>
-
-    <div class="cart-item">
-    </div>
-
-    <div class="cart-total">
-        <p>Total: <span class="total-price">$0.00</span></p>
-        <a href="" class="checkout-btn">Proceed to Checkout</a>
-    </div>
-    <a href="Home.html">Terug naar Winkel</a>
+    <table id="cartTable">
+        <tr>
+            <th>Product</th>
+            <th>Beschrijving</th>
+            <th>Prijs</th>
+        </tr>
+    </table>
+</div>
+<div class="cart-total">
+    <p>Total: <span class="total-price">$0.00</span></p>
+    <a href="" class="checkout-btn">Proceed to Checkout</a>
+</div>
+<a href="Home.html">Terug naar Winkel</a>
 </div>
 <script src="JavaScript/ShowCart.js"></script>
 </body>
