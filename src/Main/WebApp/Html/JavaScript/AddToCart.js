@@ -13,4 +13,7 @@ function addToCart(productId, name, description, price) {
     localStorage.setItem("shoppingCart", JSON.stringify(shoppingCart));
 
     alert("Product added to cart!");
+
+    calculateTotalPrice();
 }
+

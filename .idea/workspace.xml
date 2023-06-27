@@ -9,16 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a0044cb-8f9b-4100-ab13-5fabdfa5ae53" name="Changes" comment="derde commit">
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/ProductToevoegen.html" afterDir="false" />
+    <list default="true" id="5a0044cb-8f9b-4100-ab13-5fabdfa5ae53" name="Changes" comment="winkelmand gefixed commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Model/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Security/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Security/AuthenticationFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Css/WinkelMand.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/WinkelMand.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/AddToCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/AddToCart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/ShowCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/ShowCart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/WinkelMand.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/WinkelMand.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +97,13 @@
       <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\WebApp\Css" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="HttpClient.HttpRequestRunConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.74">
     <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
       <method v="2" />
@@ -144,6 +147,7 @@
     </configuration>
     <configuration name="Tomcat 9.0.74" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.74" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Html/login.html" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Ipass Project:war exploded">
@@ -270,7 +274,9 @@
       <workItem from="1687166205783" duration="1032000" />
       <workItem from="1687247539474" duration="21709000" />
       <workItem from="1687770440904" duration="2042000" />
-      <workItem from="1687772517625" duration="99000" />
+      <workItem from="1687772517625" duration="2114000" />
+      <workItem from="1687774769897" duration="434000" />
+      <workItem from="1687775210493" duration="1709000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1684963881878</created>
@@ -321,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687443251401</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="winkelmand gefixed commit">
+      <created>1687772647540</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1687772647540</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,6 +359,7 @@
     <MESSAGE value="eerste commit" />
     <MESSAGE value="tweede commit" />
     <MESSAGE value="derde commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="derde commit" />
+    <MESSAGE value="winkelmand gefixed commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="winkelmand gefixed commit" />
   </component>
 </project>

@@ -1,21 +1,17 @@
-window.addEventListener("DOMContentLoaded", displayShoppingCart);
+window.onload = () => {
+    displayShoppingCart();
+    calculateTotalPrice();
 
+}
 function displayShoppingCart() {
-    // Retrieve shopping cart from local storage
-    const shoppingCart = JSON.parse(localStorage.getItem("shoppingCart")) || [];
-
-    // Get the table element
+    const shoppingCart = JSON.parse(localStorage.getItem("shoppingCart")) || []
     const cartTable = document.getElementById("cartTable");
 
-    // Clear the table body
     cartTable.innerHTML = "";
 
-    // Iterate over each product in the shopping cart
     shoppingCart.forEach((product) => {
-        // Create a new row
         const row = document.createElement("tr");
 
-        // Create cells for product details
         const productCell = document.createElement("td");
         productCell.textContent = product.name;
 
@@ -25,12 +21,29 @@ function displayShoppingCart() {
         const priceCell = document.createElement("td");
         priceCell.textContent = product.price;
 
-        // Append cells to the row
         row.appendChild(productCell);
         row.appendChild(descriptionCell);
         row.appendChild(priceCell);
 
-        // Append the row to the table
         cartTable.appendChild(row);
     });
+}
+function calculateTotalPrice() {
+    const shoppingCart = JSON.parse(localStorage.getItem("shoppingCart")) || [];
+
+    let totalPrice = 0;
+
+    shoppingCart.forEach((product) => {
+        totalPrice += parseFloat(product.price);
+    });
+
+    const totalPriceElement = document.getElementById("totalPrice");
+    totalPriceElement.textContent = "$" + totalPrice.toFixed(2);
+}
+
+
+function clearCart() {
+    localStorage.removeItem("shoppingCart");
+    displayShoppingCart();
+    calculateTotalPrice();
 }
