@@ -1,34 +1,75 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Bestel Geschiedenis</title>
-  <link rel="stylesheet" href="../Css/BestelGeschiedenis.css">
+    <title>Bestel Geschiedenis</title>
+    <link rel="stylesheet" href="../Css/BestelGeschiedenis.css">
 </head>
 <body>
-<div class="container">
-  <h2>Bestel Geschiedenis</h2>
-
-  <table>
-    <thead>
-    <tr>
-      <th>Order ID</th>
-      <th>Datum</th>
-      <th>Totaal</th>
-    </tr>
-    </thead>
-    <tbody id="bestelgeschiedenisRegel">
-    <tr>
-      <td>1</td>
-      <td>2023-06-15</td>
-      <td>$39.98</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>2023-06-10</td>
-      <td>$24.99</td>
-    </tr>
-    </tbody>
-  </table>
+<div id="Banner">
+    <span id="Title">Mounir's Schoenen Webshop</span>
+    <span id="ShoppingCartInfo">
+                <a href="WinkelMand.html"><img src="../Images/winkelmand.png" id="ShoppingCart" alt="winkelmand"></a>
+                <label id="Items"><span id="AantalItems">0</span> items</label>
+            </span>
+    <span id="logout">
+        <a href="login.html"><img src="../Images/logout.png" id="logoutKnop" alt="log in"></a>
+    </span>
+    <span id="bestelgeschiedenis">
+        <a href="BestelGeschiedenis.html"><img src="../Images/bestelgeschiedenis.png" id="bestelgeschiedenisKnop"
+                                               alt="bestel geschiedenis"></a>
+    </span>
 </div>
+<div class="container">
+    <h2>Bestel Geschiedenis</h2>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Order ID</th>
+            <th>Datum</th>
+            <th>Totaal</th>
+        </tr>
+        </thead>
+        <tbody id="bestelgeschiedenisRegel">
+        </tbody>
+    </table>
+</div>
+
+<script src="JavaScript/checkout.js"></script>
+<script src="JavaScript/ShowCart.js"></script>
+<script src="JavaScript/AddToCart.js"></script>
+
+<script>
+    window.onload = () => {
+        displayOrderHistory();
+    };
+
+    function displayOrderHistory() {
+        const orderHistory = JSON.parse(localStorage.getItem("orderHistory")) || [];
+        const orderTable = document.getElementById("bestelgeschiedenisRegel");
+
+        orderTable.innerHTML = "";
+
+        orderHistory.forEach((order) => {
+            const row = document.createElement("tr");
+
+            const orderIdCell = document.createElement("td");
+            orderIdCell.textContent = order.orderId;
+
+            const dateCell = document.createElement("td");
+            dateCell.textContent = order.date;
+
+            const totalPriceCell = document.createElement("td");
+            totalPriceCell.textContent = "$" + order.totalPrice.toFixed(2);
+
+            row.appendChild(orderIdCell);
+            row.appendChild(dateCell);
+            row.appendChild(totalPriceCell);
+
+            orderTable.appendChild(row);
+        });
+    }
+</script>
+
 </body>
 </html>

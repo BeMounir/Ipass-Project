@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Page</title>
+    <link rel="stylesheet" href="../Css/shoes.css">
+</head>
+<body>
+<div id="Banner">
+    <span id="Title">Mounir's Schoenen Webshop</span>
+    <span id="ShoppingCartInfo">
+                <a href="WinkelMand.html"><img src="../Images/winkelmand.png" id="ShoppingCart" alt="winkelmand"></a>
+                <label id="Items"><span id="AantalItems">0</span> items</label>
+            </span>
+    <span id="logout">
+        <a href="login.html"><img src="../Images/logout.png" id="logoutKnop" alt="log in"></a>
+    </span>
+    <span id="bestelgeschiedenis">
+        <a href="BestelGeschiedenis.html"><img src="../Images/bestelgeschiedenis.png" id="bestelgeschiedenisKnop"
+                                               alt="bestel geschiedenis"></a>
+    </span>
+</div>
+<div class="product-container">
+    <div class="image-container">
+        <img src="../Images/crocs.png" alt="Product Image">
+    </div>
+    <div class="product-info">
+        <h2>Crocs</h2>
+        <p>Zwarte crocs Classic</p>
+        <p>Price: $69.99</p>
+        <button class="ButtonDiv" onclick="addToCart(3, 'Crocs', 'Zwarte Classic Crocs', 129.99)">Koop</button>
+    </div>
+</div>
+<script src="JavaScript/AddToCart.js"></script>
+</body>
+</html>

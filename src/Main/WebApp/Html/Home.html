@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-    <meta content="text/html; charset=UTF-8; X-Content-Type-Options=nosniff" http-equiv="Content-Type" />
+    <meta content="text/html; charset=UTF-8; X-Content-Type-Options=nosniff" http-equiv="Content-Type"/>
     <title>Schoenen Winkel</title>
     <link rel="stylesheet" href="../Css/Home.css">
 </head>
@@ -13,113 +13,106 @@
                 <label id="Items"><span id="AantalItems">0</span> items</label>
             </span>
     <span id="logout">
-        <a href="login.html"><img src="../Images/logout.png" id="logoutKnop" alt="log in"></a>
+        <a href="login.html"><img src="../Images/logout.png" id="logoutKnop" alt="log in" onclick="clearCart()"></a>
     </span>
     <span id="bestelgeschiedenis">
-        <a href="BestelGeschiedenis.html"><img src="../Images/bestelgeschiedenis.png" id="bestelgeschiedenisKnop" alt="bestel geschiedenis"></a>
+        <a href="BestelGeschiedenis.html"><img src="../Images/bestelgeschiedenis.png" id="bestelgeschiedenisKnop"
+                                               alt="bestel geschiedenis"></a>
     </span>
 </div>
 <script src="JavaScript/AddToCart.js"></script>
-<script sr="JavaScript/index.js"></script>
+<script src="JavaScript/index.js"></script>
+<script src="JavaScript/ShowCart.js"></script>
 <div id="Schoen">
     <div class="SchoenRegel">
         <div id="Schoen1" class="Schoen">
-            <img src="../Images/schoen4.png" Class="SchoenenImage"><br>
+            <a href="Nike.html"><img src="../Images/Nike Air Max 97.png" Class="SchoenenImage"></a><br>
             <div class="Align">
-                Nike
+                Nike Air Max 97
             </div>
             <div class="Align">
-                description
+                Zwarte damens nike
             </div>
             <div class="Align">
-                120.99
+                $189,99
             </div>
             <br>
-            <div class="ButtonDiv">
-                <button class="koop" onclick="addToCart(1, 'Nike', 'Mooie Schoen voor mooie kerels', 120.99)">Koop</button>
-            </div>
+            <button class="ButtonDiv"
+                    onclick="addToCart(1, 'Nike Air Max 97', 'Zwarte damens nike', 189.99)">
+                Koop
+            </button>
         </div>
         <div id="Schoen2" class="Schoen">
-            <img src="../Images/schoen4.png" Class="SchoenenImage">
+            <a href="Timberlands.html"><img src="../Images/timberlands.png" Class="SchoenenImage"></a>
             <div class="Align">
-                Timberlands
+                Timberland
             </div>
             <div class="Align">
-                description
+                Waterdichte schoenen
             </div>
             <div class="Align">
-                199.99
+                $219.99
             </div>
             <br>
-            <div class="ButtonDiv">
-                <button class="koop" onclick="addToCart(2, 'schoen4', 'desc', 199.99)">Koop</button>
-            </div>
+            <button class="ButtonDiv" onclick="addToCart(2, 'Timberland', 'Waterdichte schoenen', 219.99)">Koop</button>
         </div>
         <div id="Schoen3" class="Schoen">
-            <img src="../Images/schoen4.png" Class="SchoenenImage">
+            <a href="Crocs.html"><img src="../Images/crocs.png" Class="SchoenenImage"></a>
             <div class="Align">
-                crocs
+                Crocs
             </div>
             <div class="Align">
-                description
+                Zwarte crocs Classic
             </div>
             <div class="Align">
-                69.99
+                $69.99
             </div>
             <br>
-            <div class="ButtonDiv">
-                <button class="koop" onclick="addToCart(3, 'naam', 'desc', 129.99)">Koop</button>
-            </div>
+            <button class="ButtonDiv" onclick="addToCart(3, 'Crocs', 'Zwarte Classic Crocs', 129.99)">Koop</button>
         </div>
     </div>
     <div class="SchoenRegel">
         <div id="Schoen4" class="Schoen">
-            <img src="../Images/schoen4.png" Class="SchoenenImage"><br>
+            <a href="Jordan.html"><img src="../Images/jordans.png" Class="SchoenenImage"></a><br>
             <div class="Align">
-                Jordans
+                Air Jordan 1
             </div>
             <div class="Align">
-                description
+                Hightop Jordans
             </div>
             <div class="Align">
-                69.99
+                $489.99
             </div>
             <br>
-            <div class="ButtonDiv">
-                <button class="koop" onclick="addToCart(4, 'naam', 'desc', 129.99)">Koop</button>
-            </div>
+            <button class="ButtonDiv" onclick="addToCart(4, 'Air Jordan 1', 'Hightop Jordans', 489.99)">Koop</button>
         </div>
         <div id="Schoen5" class="Schoen">
-            <img src="../Images/schoen4.png" Class="SchoenenImage">
+            <a href="Chuck.html"><img src="../Images/chuck%20taylor.png" Class="SchoenenImage"></a>
             <div class="Align">
-                Puma
+                Chuck Taylor
             </div>
             <div class="Align">
-                description
+                High Top Unisex
             </div>
             <div class="Align">
-                139.99
+                $65,99
             </div>
             <br>
-            <div class="ButtonDiv">
-                <button class="koop" onclick="addToCart(5, 'naam', 'desc', 129.99)">Koop</button>
-            </div>
+            <button class="ButtonDiv" onclick="addToCart(5, 'Chuck Taylor', 'High Top Unisex', 65.99)">Koop</button>
         </div>
         <div id="Schoen6" class="Schoen">
-            <img src="../Images/schoen4.png" Class="SchoenenImage">
+            <a href="New%20balance.html"><img src="../Images/new%20balance%203.png" Class="SchoenenImage"></a>
             <div class="Align">
                 New Balance
             </div>
             <div class="Align">
-                description
+                9060 Navy blue
             </div>
             <div class="Align">
-                160.99
+                $109.99
             </div>
             <br>
-            <div class="ButtonDiv">
-                <button class="koop" onclick="addToCart(6)">Koop</button>
-            </div>
+            <button class="ButtonDiv" onclick="addToCart(6, 'New Balance', '9060 Navy blue', 109.99)">Koop</button>
         </div>
     </div>
 </div>

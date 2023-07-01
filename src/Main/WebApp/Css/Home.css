@@ -2,6 +2,13 @@ html {
     background-color: white;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
 #Banner {
     background-color: gray;
     height: 70px;
@@ -28,7 +35,7 @@ html {
 }
 
 .SchoenRegel {
-    height: 200px;
+    height: 300px;
     width: 1000px;
     margin-left: 28%;
     margin-top: 50px;;
@@ -40,10 +47,22 @@ html {
     margin-left: 50px;
     margin-right: 50px;
     color: #2e3f8f;
+    width: 220px;
 }
 
 .ButtonDiv {
-    padding-left: 35%;
+    display: block;
+    padding: 10px;
+    background-color: #4d74e2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    width: 152px;
 }
 
 #Links {

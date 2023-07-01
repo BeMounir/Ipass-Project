@@ -9,13 +9,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a0044cb-8f9b-4100-ab13-5fabdfa5ae53" name="Changes" comment="winkelmand gefixed commit">
+    <list default="true" id="5a0044cb-8f9b-4100-ab13-5fabdfa5ae53" name="Changes" comment="winkelmand werkt nu commit">
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/checkout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/shoes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Chuck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Crocs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Jordan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/New balance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Nike.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Timberlands.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Images/Nike Air Max 97.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Images/chuck taylor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Images/crocs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Images/jordans.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Images/new balance 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Images/new balance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Images/timberlands.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Css/BestelGeschiedenis.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/BestelGeschiedenis.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Css/WinkelMand.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/WinkelMand.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/BestelGeschiedenis.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/BestelGeschiedenis.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/AddToCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/AddToCart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/ShowCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/ShowCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/checkout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/WinkelMand.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/WinkelMand.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/checkout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +44,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -64,37 +82,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/X/Downloads/countrycase-BeMounir-main/Ipass Project&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15722656&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/X/Downloads/countrycase-BeMounir-main/Ipass Project/src/Main/WebApp/Images",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15722656",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\Main\WebApp\Images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\Main\WebApp\Html" />
+      <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\Main\WebApp\Html\Schoenen" />
       <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\Main\WebApp\Images" />
       <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\Main" />
       <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src" />
-      <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\WebApp\Css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -276,7 +297,7 @@
       <workItem from="1687770440904" duration="2042000" />
       <workItem from="1687772517625" duration="2114000" />
       <workItem from="1687774769897" duration="434000" />
-      <workItem from="1687775210493" duration="1709000" />
+      <workItem from="1687775210493" duration="20158000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1684963881878</created>
@@ -334,7 +355,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687772647540</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="winkelmand werkt nu commit">
+      <created>1687851471919</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1687851471919</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +388,7 @@
     <MESSAGE value="tweede commit" />
     <MESSAGE value="derde commit" />
     <MESSAGE value="winkelmand gefixed commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="winkelmand gefixed commit" />
+    <MESSAGE value="winkelmand werkt nu commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="winkelmand werkt nu commit" />
   </component>
 </project>
