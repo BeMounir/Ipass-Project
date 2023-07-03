@@ -9,25 +9,41 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a0044cb-8f9b-4100-ab13-5fabdfa5ae53" name="Changes" comment="bestelgeschiedenis werkt nu commit">
-      <change afterPath="$PROJECT_DIR$/src/Main/WebApp/Images/Home.png" afterDir="false" />
+    <list default="true" id="5a0044cb-8f9b-4100-ab13-5fabdfa5ae53" name="Changes" comment="fixes + cleanup commit">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_api_9_0_73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_catalina_9_0_73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_coyote_9_0_73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_el_api_9_0_73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jaspic_api_9_0_73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jni_9_0_73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jsp_api_9_0_73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_9_0_73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_servlet_api_9_0_73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_9_0_73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_util_scan_9_0_73.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main/Setup/CORSResponseFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Ipass_Project_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Ipass_Project_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_14_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_javax_json_api_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_json_1_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_javax_json_1_1_4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Css/BestelGeschiedenis.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/BestelGeschiedenis.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Css/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Css/WinkelMand.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/WinkelMand.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Css/checkout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/checkout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Css/shoes.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Css/shoes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/BestelGeschiedenis.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/BestelGeschiedenis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/Chuck.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Chuck.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/Crocs.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Crocs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/AddToCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/AddToCart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/ShowCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/JavaScript/ShowCart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/Jordan.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Jordan.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/New balance.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/New balance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/Nike.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Nike.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/Timberlands.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/Timberlands.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/WebApp/Html/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebApp/Html/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ipass Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ipass Project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Model/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/WebServices/PaymentResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/WebServices/PaymentResources.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +53,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,30 +92,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/X/Downloads/countrycase-BeMounir-main/Ipass Project/src/Main/WebApp/Images&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15722656&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/X/Downloads/countrycase-BeMounir-main/Ipass Project/src/Main/WebApp/Images",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15722656",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.tools",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\Main\WebApp\Images" />
@@ -111,6 +128,35 @@
       <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src\Main" />
       <recent name="C:\Users\X\Downloads\countrycase-BeMounir-main\Ipass Project\src" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Gradle Tasks" flag="true" />
+      <visibility group="Grunt" flag="true" />
+      <visibility group="Gulp" flag="true" />
+      <visibility group="HTTP Requests" flag="true" />
+      <visibility group="Maven Goals" flag="true" />
+      <visibility group="Node.js" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+      <visibility group="com.intellij.httpClient.http.request.run.HttpRequestRunAnythingProvider" flag="true" />
+      <visibility group="com.intellij.ide.actions.runAnything.RunAnythingRunConfigurationProvider" flag="true" />
+      <visibility group="com.intellij.ide.actions.runAnything.activity.RunAnythingRecentProjectProvider" flag="true" />
+      <visibility group="com.intellij.lang.javascript.buildTools.grunt.GruntRunAnythingProvider" flag="true" />
+      <visibility group="com.intellij.lang.javascript.buildTools.gulp.GulpRunAnythingProvider" flag="true" />
+      <visibility group="com.intellij.lang.javascript.buildTools.npm.NpmRunAnythingProvider.Npm" flag="true" />
+      <visibility group="com.intellij.lang.javascript.buildTools.npm.NpmRunAnythingProvider.Yarn" flag="true" />
+      <visibility group="com.jetbrains.nodejs.execution.NodeRunAnythingProvider" flag="true" />
+      <visibility group="npm" flag="true" />
+      <visibility group="org.jetbrains.idea.maven.execution.MavenRunAnythingProvider" flag="true" />
+      <visibility group="org.jetbrains.plugins.gradle.execution.GradleRunAnythingProvider" flag="true" />
+      <visibility group="yarn" flag="true" />
+    </myKeys>
+    <option name="myCommands">
+      <command value="mvn mvn com.microsoft.azure:azure-webapp-maven-plugin:2.10.0:config" />
+      <command value="mvn com.microsoft.azure:azure-webapp-maven-plugin:2.10.0:config" />
+      <command value="mvn clean package azure-webapp:deploy" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="excludedTypes">
@@ -259,10 +305,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests | #3" />
-        <item itemvalue="JUnit.ProductTest" />
         <item itemvalue="JUnit.OrderTest" />
         <item itemvalue="JUnit.CustomerTest" />
+        <item itemvalue="HTTP Request.generated-requests | #3" />
+        <item itemvalue="JUnit.ProductTest" />
         <item itemvalue="JUnit.OrderTest.testGetOrderId" />
       </list>
     </recent_temporary>
@@ -292,7 +338,8 @@
       <workItem from="1687772517625" duration="2114000" />
       <workItem from="1687774769897" duration="434000" />
       <workItem from="1687775210493" duration="20708000" />
-      <workItem from="1688307127816" duration="2709000" />
+      <workItem from="1688307127816" duration="4366000" />
+      <workItem from="1688405947600" duration="2086000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1684963881878</created>
@@ -364,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688219234474</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixes + cleanup commit">
+      <created>1688380336200</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688380336200</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,6 +446,7 @@
     <MESSAGE value="winkelmand gefixed commit" />
     <MESSAGE value="winkelmand werkt nu commit" />
     <MESSAGE value="bestelgeschiedenis werkt nu commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="bestelgeschiedenis werkt nu commit" />
+    <MESSAGE value="fixes + cleanup commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixes + cleanup commit" />
   </component>
 </project>
