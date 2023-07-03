@@ -23,7 +23,7 @@ function checkout() {
 
     localStorage.removeItem("shoppingCart");
 
-    alert("Thank you for your purchase! Order ID: " + orderId);
+    alert("Bedankt voor de aankoop! Order ID: " + orderId);
 
     window.location.href = "BestelGeschiedenis.html";
 }

@@ -27,6 +27,8 @@ function displayShoppingCart() {
 
         cartTable.appendChild(row);
     });
+    const aantalItemsElement = document.getElementById("AantalItems");
+    aantalItemsElement.textContent = shoppingCart.length;
 }
 function calculateTotalPrice() {
     const shoppingCart = JSON.parse(localStorage.getItem("shoppingCart")) || [];

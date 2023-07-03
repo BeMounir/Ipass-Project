@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
     <title>Bestel Geschiedenis</title>
     <link rel="stylesheet" href="../Css/BestelGeschiedenis.css">
@@ -13,6 +13,9 @@
             </span>
     <span id="logout">
         <a href="login.html"><img src="../Images/logout.png" id="logoutKnop" alt="log in"></a>
+    </span>
+    <span id="Home">
+        <a href="Home.html"><img src="../Images/Home.png" id="HomeKnop" alt="terug naar winkel"></a>
     </span>
     <span id="bestelgeschiedenis">
         <a href="BestelGeschiedenis.html"><img src="../Images/bestelgeschiedenis.png" id="bestelgeschiedenisKnop"
@@ -34,6 +37,7 @@
         </tbody>
     </table>
 </div>
+<button onclick="clearOrderHistory()">Clear Order History</button>
 
 <script src="JavaScript/checkout.js"></script>
 <script src="JavaScript/ShowCart.js"></script>
@@ -68,6 +72,11 @@
 
             orderTable.appendChild(row);
         });
+    }
+
+    function clearOrderHistory() {
+        localStorage.removeItem("orderHistory");
+        displayOrderHistory();
     }
 </script>
 

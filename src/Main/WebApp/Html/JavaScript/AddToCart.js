@@ -12,7 +12,11 @@ function addToCart(productId, name, description, price) {
 
     localStorage.setItem("shoppingCart", JSON.stringify(shoppingCart));
 
-    alert("Product added to cart!");
+    const aantalItemsElement = document.getElementById("AantalItems");
+    const itemCount = parseInt(aantalItemsElement.textContent);
+    aantalItemsElement.textContent = itemCount + 1;
+
+    alert("Product Toegevoegd!");
 
     calculateTotalPrice();
 }
